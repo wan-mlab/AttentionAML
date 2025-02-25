@@ -1,7 +1,7 @@
 # AttentionAML: an Attention-based MLP Model for Identifying Acute Myeloid Leukemia Subtypes
 **AttentionAML** (an **Attention**-Based MLP Model for Identifying **A**cute **M**yeloid **L**eukemia Subtypes), an accurate and effective model for AML subtype identification based on transcriptomic profiling only.
 
-## Flowchart of RanBALL
+## Flowchart of AttentionAML
 ![Flowchart of AttentionAML](Flowchart.png)
 
 ## Installation
