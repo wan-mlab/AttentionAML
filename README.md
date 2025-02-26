@@ -1,5 +1,5 @@
-# AttentionAML: an Attention-based MLP Model for Identifying Acute Myeloid Leukemia Subtypes
-**AttentionAML** (an **Attention**-Based MLP Model for Identifying **A**cute **M**yeloid **L**eukemia Subtypes), an accurate and effective model for AML subtype identification based on transcriptomic profiling only.
+# Categorizing Pediatric Acute Myeloid Leukemia by a Multi-Omics Integration Ensemble Learning Model
+**AttentionAML** (an **Attention**-Based MLP Model for Identifying **A**cute **M**yeloid **L**eukemia Subtypes), an accurate and effective model for AML subtype identification.
 
 ## Flowchart of AttentionAML
 ![Flowchart of AttentionAML](Flowchart.png)
@@ -31,3 +31,9 @@ AttentionAML.Predict(Exp = test, exp_type = 'TPM')
 ```
 ## Authors
 Lusheng Li, Shibiao Wan
+
+## Publication
+AttentionAML: An attention-based deep learning model for accurate identification of childhood acute myeloid leukemia subtypes
+Lusheng Li, Joseph D. Khoury, Jieqiong Wang, Shibiao Wan
+Cancer Res (2025) (AACR Abstract)
+Manuscript in progress
