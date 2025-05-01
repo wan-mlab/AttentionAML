@@ -1,4 +1,4 @@
-# Categorizing Pediatric Acute Myeloid Leukemia by a Multi-Omics Integration Ensemble Learning Model
+# AttentionAML: an <ins>Attention</ins>-based MLP Model for Identifying <ins>A</ins>cute <ins>M</ins>yeloid <ins>L</ins>eukemia Subtypes
 **AttentionAML** (an **Attention**-Based MLP Model for Identifying **A**cute **M**yeloid **L**eukemia Subtypes), an accurate and effective model for AML subtype identification.
 
 ## Flowchart of AttentionAML
