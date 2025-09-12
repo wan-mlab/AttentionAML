@@ -76,7 +76,7 @@ def train_and_predict(tpm_test):
     test = torch.tensor(tpm_test.values.astype('float32'), dtype=torch.float32)
     test_loader = DataLoader(test,shuffle=False)
     pred = []
-    model = MLP_MultiHeadAttention(input_size=X_train.shape[1], hidden_size=512, num_classes=21, num_heads=8).to(device)
+    model = MLP_MultiHeadAttention(input_size=tpm_test.shape[1], hidden_size=512, num_classes=21, num_heads=8).to(device)
     model.load_state_dict(torch.load(os.path.dirname(__file__) + '/model/MLP_attention.pth'))
     model.eval() 
 
@@ -108,4 +108,5 @@ def train_and_predict(tpm_test):
     results.to_csv('Prediction_results.csv', index=False)
     print(results)
     return results
+
 
