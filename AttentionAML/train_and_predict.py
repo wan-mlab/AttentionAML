@@ -81,7 +81,7 @@ def train_and_predict(tpm_test):
     model.eval() 
 
     with torch.no_grad():
-        for data, labels in test_loader:
+        for data in test_loader:
             outputs,pro = model(data.to(device))
             _, predicted = torch.max(outputs, 1)
             pro_list.append(pro.cpu().reshape(21))
@@ -108,5 +108,6 @@ def train_and_predict(tpm_test):
     results.to_csv('Prediction_results.csv', index=False)
     print(results)
     return results
+
 
 
