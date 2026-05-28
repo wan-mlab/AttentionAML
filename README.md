@@ -1,5 +1,5 @@
-# AttentionAML: an <ins>Attention</ins>-based MLP Model for Identifying <ins>A</ins>cute <ins>M</ins>yeloid <ins>L</ins>eukemia Subtypes
-**AttentionAML** (an **Attention**-Based MLP Model for Identifying **A**cute **M**yeloid **L**eukemia Subtypes), an accurate and effective model for AML subtype identification.
+# AttentionAML: An <ins>Attention</ins>-based Deep Learning Framework for Accurate Molecular Diagnosis and Prognosis of <ins>A</ins>cute <ins>M</ins>yeloid <ins>L</ins>eukemia
+**AttentionAML** (an **Attention**-Based Deep Learning Framework for Identifying **A**cute **M**yeloid **L**eukemia Subtypes), an accurate and effective model for AML subtype identification.
 
 ## Flowchart of AttentionAML
 ![Flowchart of AttentionAML](Flowchart.png)
@@ -28,6 +28,11 @@ test = pd.read_csv('TPM_test.csv', index_col=0)
 3. AML subtype prediction
 ```bash
 AttentionAML.Predict(Exp = test, exp_type = 'TPM')
+```
+4. AML risk prediction 
+```bash
+risk_efs  = AttentionAML.PredictRisk(Exp = test, exp_type = 'TPM', endpoint = 'efs')
+risk_os   = AttentionAML.PredictRisk(Exp = test, exp_type = 'TPM', endpoint = 'os')
 ```
 4. Example Outputs
 
