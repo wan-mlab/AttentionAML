@@ -1,6 +1,6 @@
 # Fixed manuscript 20% held-out test set
 
-This directory contains 332 held-out samples from the 1,656-sample cohort, spanning 21 molecular subtypes. Membership and labels agree across all three supplied manuscript prediction files.
+This directory contains 332 held-out samples from the 1,656-sample cohort, spanning 21 molecular subtypes. The samples and labels agree across all three supplied manuscript prediction files.
 
 - `expression_log2TPM1.csv.gz`: genes × samples; first column `gene_id`, remaining columns sample IDs. Values are already log2(TPM+1).
 - `labels.csv`: sample IDs and true subtype (`category`).
