@@ -1,0 +1,13 @@
+{
+  "name": "RanAML",
+  "projection_dim": 1200,
+  "ensemble_size": 30,
+  "C": 1.0,
+  "kernel": "linear",
+  "probability": true,
+  "tol": 0.001,
+  "shrinking": true,
+  "cache_size_mb": 200,
+  "class_weight": null,
+  "max_iter": -1
+}
