@@ -9,8 +9,6 @@ This directory contains 332 held-out samples from the 1,656-sample cohort, spann
 - `subtype_counts.csv`: held-out sample counts.
 - `provenance.json`: source and output checksums.
 
-The expression data were extracted from the available local AMLstj_log2TPM1_n.csv. Identity to the original server input cannot be confirmed without its checksum. These are processed expression values, not raw counts. No new split was drawn. Do not train or tune models on these test samples.
-
 Evaluate a compatible packaged checkpoint:
 
 ```bash
