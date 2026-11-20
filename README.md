@@ -32,6 +32,10 @@ The repository includes the fixed manuscript test partition in [`benchmark/holdo
 | `subtype_counts.csv` | Number of held-out patients in each of the 21 subtypes |
 | `provenance.json` | Source information and SHA-256 checksums |
 
+### Download model weights
+
+Download the AttentionAML and MLP weights from [Google Drive](https://drive.google.com/drive/folders/1cWJuXyUWNqF4H7h8VKygALG2mQpCUqh5?usp=drive_link). If compressed, extract the archives and place `AttentionAML.pt` and `MLP.pt` in `checkpoints/`. See [checkpoint instructions](checkpoints/README.md) for format requirements.
+
 To evaluate a compatible AttentionAML checkpoint directly on the held-out expression matrix:
 
 ```bash
