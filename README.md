@@ -1,8 +1,9 @@
-# AttentionAML: An <ins>Attention</ins>-based Deep Learning Framework for Accurate Molecular Diagnosis and Prognosis of <ins>A</ins>cute <ins>M</ins>yeloid <ins>L</ins>eukemia
+# AttentionAML: An <ins>Attention</ins>-based Deep Learning Framework for Accurate Molecular Categorization of <ins>A</ins>cute <ins>M</ins>yeloid <ins>L</ins>eukemia
+
 **AttentionAML** (an **Attention**-Based Deep Learning Framework for Identifying **A**cute **M**yeloid **L**eukemia Subtypes), an accurate and effective model for AML subtype identification.
 
 ## Flowchart of AttentionAML
-![Flowchart of AttentionAML](Flowchart.png)
+![Flowchart of AttentionAML](figure1.png)
 
 ## Installation
 1. Clone the AttentionAML git repository
