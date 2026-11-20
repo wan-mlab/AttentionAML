@@ -1,0 +1,16 @@
+{
+  "n_test": 332,
+  "n_total": 1656,
+  "n_genes": 13998,
+  "expression_source": "AMLstj_log2TPM1_n.csv",
+  "expression_source_sha256": "474682f46380212aa245f1e7a5c68a48252386c5da4e26d118d01b4d1145988d",
+  "split_origin": "Sample IDs from all three supplied manuscript holdout prediction files; remaining included manifest samples assigned train.",
+  "limitation": "Expression subset extracted from the available local log2(TPM+1) matrix; identity to the original server matrix cannot be confirmed without its checksum.",
+  "files_sha256": {
+    "labels.csv": "3db8012645f2cb4d5875718532b50271e3966951d786271fbe712bb826502f31",
+    "sample_metadata.csv": "a9d82f561ffb6b9511768694154a8cc3e94fac438842ddbb5bd20540a21f5167",
+    "split.csv": "58b8a043dab49c2f5498c74c118dfe7294ab002fa4fbe44c09ea37d9c1a49c4c",
+    "expression_log2TPM1.csv.gz": "d52ffa3160ecff432557c135dbe8b90d6031de371cc858a2977e3d36b288bb70",
+    "subtype_counts.csv": "03209de82af14b56819c9f681fc98b54c2ce3755db7ad52ad1d799751e4c42a6"
+  }
+}
